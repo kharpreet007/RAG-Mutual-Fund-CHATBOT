@@ -9,3 +9,4 @@ requests==2.32.*
 python-dotenv==1.1.*
 groq==0.18.*
 sentence-transformers==3.*
+langchain-chroma==0.1.*
