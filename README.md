@@ -66,6 +66,21 @@ The system is composed of two primary components:
    npm run dev
    ```
 
+### Docker Setup (Recommended)
+
+You can easily run the entire stack (Frontend + Backend) using Docker Compose.
+
+1. **Configure Environment Variables**:
+   ```bash
+   cp backend/.env.example backend/.env
+   # Edit backend/.env and set GROQ_API_KEY=gsk_your_api_key_here
+   ```
+
+2. **Start the Stack**:
+   ```bash
+   docker-compose up --build
+   ```
+
 3. Open your browser and navigate to `http://localhost:3000`.
 
 ## AMC Selection Rationale

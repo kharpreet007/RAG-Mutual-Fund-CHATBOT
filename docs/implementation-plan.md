@@ -746,11 +746,11 @@ async def ask(request: QueryRequest):
 
 ### Verification
 
-- [ ] All 12 test scenarios pass
-- [ ] Response latency < 5 seconds for factual queries
-- [ ] No advisory language in any factual response
-- [ ] Citations are valid Groww URLs
-- [ ] Footer date matches the scrape date
+- [x] All 12 test scenarios pass
+- [x] Response latency < 5 seconds for factual queries
+- [x] No advisory language in any factual response
+- [x] Citations are valid Groww URLs
+- [x] Footer date matches the scrape date
 
 ---
 
@@ -849,7 +849,23 @@ gantt
 | **7** | User Interface | 1 day | Next.js chat UI with components, disclaimer, responsive design |
 | **8** | Testing | 1 day | 12 E2E test scenarios passed |
 | **9** | Documentation | 1 day | README, code cleanup, final review |
-| | **Total** | **~7 days** | |
+| **10** | Deployment & Docker | 0.5 day | Dockerfiles, docker-compose, Deployment strategies |
+| | **Total** | **~7.5 days** | |
+
+---
+
+## Phase 10 — Deployment & Dockerization
+
+**Status:** Completed
+
+### Tasks
+
+| # | Task | Description |
+|---|---|---|
+| 10.1 | Dockerize Backend | Create `Dockerfile` and `.dockerignore` for FastAPI + ChromaDB |
+| 10.2 | Dockerize Frontend | Create `Dockerfile` and `.dockerignore` for Next.js |
+| 10.3 | Docker Compose | Create `docker-compose.yml` to orchestrate full stack locally |
+| 10.4 | Deployment Strategy | Create `deployment_strategy.md` for Railway (Backend) and Vercel (Frontend) |
 
 ---
 
@@ -868,8 +884,8 @@ gantt
 
 ---
 
-> **Document Version:** 1.0  
-> **Status:** Draft — Pending Review  
+> **Document Version:** 1.1  
+> **Status:** Final — Completed  
 > **References:**  
 > - [Problem Statement](file:///Users/harpreetkaur/Desktop/Milestone-MF/docs/problemStatement.md)  
 > - [Architecture](file:///Users/harpreetkaur/Desktop/Milestone-MF/docs/architecture.md)  
