@@ -1,0 +1,11 @@
+frontend/
+Design/
+docs/
+.git/
+.DS_Store
+*.log
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/.pytest_cache/
