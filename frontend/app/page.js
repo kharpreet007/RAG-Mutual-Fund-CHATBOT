@@ -49,7 +49,7 @@ export default function Home() {
       console.error('API error:', error);
       const errorMessage = {
         role: 'bot',
-        text: 'Unable to connect to the server. Please make sure the backend is running at localhost:8000.',
+        text: 'Unable to connect to the backend server. If you are in production, ensure BACKEND_API_URL is set correctly.',
         status: 'error',
       };
       setMessages((prev) => [...prev, errorMessage]);
