@@ -9,3 +9,4 @@ python-dotenv==1.1.*
 groq==0.18.*
 sentence-transformers==3.*
 langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.0
