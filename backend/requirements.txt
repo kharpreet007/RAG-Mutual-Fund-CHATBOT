@@ -3,10 +3,9 @@ uvicorn==0.34.*
 langchain==0.3.*
 langchain-groq==0.3.*
 langchain-community==0.3.*
-chromadb==0.6.*
 beautifulsoup4==4.13.*
 requests==2.32.*
 python-dotenv==1.1.*
 groq==0.18.*
 sentence-transformers==3.*
-langchain-chroma==0.1.*
+langchain-chroma>=0.1.4
